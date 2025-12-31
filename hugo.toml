@@ -1,0 +1,12 @@
+baseURL = 'https://example.com/' # This will be replaced by the GitHub Pages URL
+languageCode = 'en-us'
+title = 'UI/UX Design Links'
+theme = 'ananke'
+
+[params]
+  description = "A collection of software, web, and desktop environment user interface design links."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
