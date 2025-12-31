@@ -1,0 +1,77 @@
+name: Monthly Volume Release
+
+on:
+  schedule:
+    - cron: '0 0 1 * *' # Run at midnight on the 1st of every month
+  workflow_dispatch: # Allow manual trigger for testing
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for creating releases
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Check for updates in the previous month
+        id: check_updates
+        run: |
+          # Calculate the start and end dates of the previous month
+          # Date format: YYYY-MM-DD
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "Manual trigger, forcing update check to true for testing."
+            echo "has_updates=true" >> $GITHUB_OUTPUT
+            # For manual run, set VERSION to current month for testing
+            echo "VERSION=$(date +'%Y.%m')" >> $GITHUB_ENV
+            exit 0
+          fi
+
+          START_DATE=$(date -d "last month" +'%Y-%m-01')
+          END_DATE=$(date +'%Y-%m-01')
+
+          echo "Checking updates from $START_DATE to $END_DATE"
+
+          # Check for commits
+          # We use --before so it doesn't include commits from the 1st of the current month if any happened exactly at midnight before this runs?
+          # Actually cron runs at 00:00, so it's fine.
+          COMMITS=$(git log --since="$START_DATE" --before="$END_DATE" --oneline)
+
+          if [[ -z "$COMMITS" ]]; then
+            echo "No updates found in the previous month."
+            echo "has_updates=false" >> $GITHUB_OUTPUT
+          else
+            echo "Updates found:"
+            echo "$COMMITS"
+            echo "has_updates=true" >> $GITHUB_OUTPUT
+            # Set version for release
+            # Format: YYYY.MM (based on the month being released - the previous month)
+            RELEASE_VERSION=$(date -d "last month" +'%Y.%m')
+            echo "VERSION=$RELEASE_VERSION" >> $GITHUB_ENV
+          fi
+
+      - name: Install dependencies
+        if: steps.check_updates.outputs.has_updates == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-recommended texlive-fonts-recommended fonts-noto-cjk
+
+      - name: Generate PDF
+        if: steps.check_updates.outputs.has_updates == 'true'
+        run: |
+          pandoc README.md -o UI_UX_Design_Links.pdf --pdf-engine=xelatex -V mainfont="Noto Sans CJK KR"
+
+      - name: Create Release
+        if: steps.check_updates.outputs.has_updates == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ env.VERSION }}
+          name: Volume ${{ env.VERSION }}
+          body: "Monthly release for ${{ env.VERSION }}. Contains updates from the previous month."
+          files: UI_UX_Design_Links.pdf
+          draft: false
+          prerelease: false
