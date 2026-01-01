@@ -50,6 +50,12 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Install Theme
+        run: |
+          if [ ! -d "themes/ananke" ]; then
+            git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+          fi
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
