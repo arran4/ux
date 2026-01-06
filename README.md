@@ -42,6 +42,9 @@ Essays, articles, and videos discussing interface design trends, complexity vs. 
 *   **[The Hidden Cost of "Clean" Design](https://youtu.be/4rD3lHLu8Bk?si=djXBdSZ-0_khwndJ)**
     *   Video essay arguing that the shift from "personality" (Winamp, Windows XP) to invisible/clean interfaces wasn't just technological evolution, but a cultural choice that erased the "author" from the machine and reduced user agency.
 
+*   **[It’s hard to justify Tahoe icons](https://tonsky.me/blog/tahoe-icons/)**
+    *   *Nikita Prokopov* critiques the macOS Tahoe icons, arguing that they are distracting, illegible, and inconsistent, violating fundamental design principles laid out in Apple's own 1992 Human Interface Guidelines.
+
 ---
 
 ## Historical Case Studies
