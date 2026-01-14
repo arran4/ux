@@ -92,6 +92,13 @@ Collections of design patterns, museums, and foundational texts.
 
 ---
 
+## News
+
+*   **[Vietnam to limit online ad skip time to 5 seconds starting February 15](https://vietnamnet.vn/en/vietnam-to-limit-online-ad-skip-time-to-5-seconds-starting-february-15-2478911.html)**
+    *   Under a new regulation taking effect on February 15, online video and image-based ads in Vietnam must allow users to skip them within 5 seconds at most.
+
+---
+
 ## Typography & Readability
 
 Focus on how text is rendered, read, and perceived on screens.
