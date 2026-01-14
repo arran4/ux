@@ -2,6 +2,45 @@
 
 A collection of software, web, and desktop environment user interface design links.
 
+---
+
+## About This Repository
+
+This repository is a curated collection of links related to UI/UX design, focusing on design philosophy, historical case studies, and resources. The content of this `README.md` file is used to automatically generate the static site viewable at [TODO: Add deployed site URL].
+
+The site is built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
+
+## Running Locally
+
+To preview the site locally, you need to have Hugo installed.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone --recurse-submodules https://github.com/YOUR_USERNAME/ui-ux-design-links.git
+    cd ui-ux-design-links
+    ```
+    *Note: The `--recurse-submodules` flag is required to clone the theme.*
+
+2.  **Install Hugo:**
+    Follow the official Hugo installation guide for your operating system: [https://gohugo.io/installation/](https://gohugo.io/installation/)
+    The site is confirmed to build with Hugo version `0.153.0`.
+
+3.  **Run the local server:**
+    ```bash
+    hugo server -D
+    ```
+    The site will be available at `http://localhost:1313/`.
+
+## How to Contribute
+
+Contributions are welcome! If you have a link to add or a suggestion, please open an issue or submit a pull request.
+
+1.  **Fork the repository.**
+2.  **Add your link** to the appropriate section in the `README.md` file. Please follow the existing format.
+3.  **Commit your changes** and open a pull request.
+
+---
+
 ## Table of Contents
 
 - [Design Philosophy & Critique](#design-philosophy--critique)
