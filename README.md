@@ -33,8 +33,8 @@ Essays, articles, and videos discussing interface design trends, complexity vs. 
 *   **[Provisional Idea (Twitter Thread)](https://x.com/provisionalidea/status/1825257785275163086)**
     *   *Note: Content not directly accessible via archive, but context implies a discussion on interface design or software evolution.*
 
-*   **[The Trillion Dollar UX Problem](https://youtu.be/1fZTOjd_bOQ?si=MH3dusqkER4nBP0Z)**
-    *   Discusses the massive financial impact of bad UX, likely referencing the cost of frustrated users and failed projects.
+*   **[The Trillion Dollar UX Problem](https://www.youtube.com/watch?v=1fZTOjd_bOQ)**
+    *   Discusses the massive financial impact of bad UX, referencing the cost of frustrated users and failed projects.
 
 *   **[The ROI of User Experience](https://www.youtube.com/watch?v=O94kYyzqvTc)**
     *   *Dr. Susan Weinschenk* explains the return on investment for UX. She breaks down how spending money on usability up front saves huge amounts in development rework, support costs, and lost sales later.
