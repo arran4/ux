@@ -9,3 +9,6 @@ theme = 'PaperMod'
 
   [params.assets]
     disableHLJS = true
+
+[params.author]
+  name = "Admin"
