@@ -45,6 +45,12 @@ Essays, articles, and videos discussing interface design trends, complexity vs. 
 *   **[It’s hard to justify Tahoe icons](https://tonsky.me/blog/tahoe-icons/)**
     *   *Nikita Prokopov* critiques the macOS Tahoe icons, arguing that they are distracting, illegible, and inconsistent, violating fundamental design principles laid out in Apple's own 1992 Human Interface Guidelines.
 
+*   **[Magic Ink: Information Software and the Graphical Interface](http://worrydream.com/MagicInk/)**
+    *   *Bret Victor* discusses the future of software interface design, arguing that interacting with software should be more like reading a book or looking at a map, focusing on context-sensitive information presentation rather than explicit manipulation.
+
+*   **[Dieter Rams: Ten Principles for Good Design](https://vitsoe.com/us/about/good-design)**
+    *   *Dieter Rams*, the influential industrial designer, outlines his 10 principles for good design (innovative, useful, aesthetic, understandable, unobtrusive, honest, long-lasting, thorough, environmentally friendly, as little design as possible).
+
 ---
 
 ## Historical Case Studies
@@ -75,6 +81,9 @@ Deep dives into specific operating systems, applications, and historical moments
 *   **[한메일 종이 Ajax UX 프로트타입 - Hanmail Paper Ajax User Experience (UX) Prototype](https://www.youtube.com/watch?v=GrV2SZuRPv0)**
     *   A paper prototype example demonstrating early Ajax interactions for the Hanmail service.
 
+*   **[The Mother of All Demos (1968)](https://dougengelbart.org/content/view/209/)**
+    *   *Douglas Engelbart's* legendary 1968 demonstration that introduced many of the fundamental elements of modern computing, including the computer mouse, hypertext, networked computers, and precursors to graphical user interfaces.
+
 ---
 
 ## Resources & Reference
@@ -89,6 +98,9 @@ Collections of design patterns, museums, and foundational texts.
 
 *   **[The Visual Display of Quantitative Information](https://www.amazon.com.au/Visual-Display-Quantitative-Information/dp/1930824130)**
     *   *Edward Tufte's* classic book on data visualization. It champions clarity, precision, and efficiency in presenting data, coining terms like "chartjunk" and advocating for high data-ink ratios.
+
+*   **[10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/)**
+    *   *Jakob Nielsen's* classic 10 general principles for interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability guidelines.
 
 ---
 
