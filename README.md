@@ -27,7 +27,7 @@ Essays, articles, and videos discussing interface design trends, complexity vs. 
 *   **[Windows NT vs Unix Design](https://blogsystem5.substack.com/p/windows-nt-vs-unix-design)**
     *   A deep technical and philosophical comparison of the design architecture of Windows NT (object-based, structured) versus Unix (file-based, monolithic/hybrid evolution), challenging the notion that one is inherently "better" or "more advanced" without context.
 
-*   **[Matching UI to User](https://sbs.seandaniel.com/2016/05/matching-ui-to-user.html)**
+*   **[Matching UI to User](https://web.archive.org/web/20210125134304/https://sbs.seandaniel.com/2016/05/matching-ui-to-user.html)**
     *   A response to Jonas Downey's "Ugly Interfaces" article. It argues that interfaces should be matched to the user's role and frequency of use—simple for one-time mobile users, dense and efficient for power users (like notaries) who perform repetitive tasks.
 
 *   **[Provisional Idea (Twitter Thread)](https://x.com/provisionalidea/status/1825257785275163086)**
@@ -87,7 +87,7 @@ Collections of design patterns, museums, and foundational texts.
 *   **[Stitch (Google)](https://stitch.withgoogle.com/)**
     *   A resource or tool related to Google's design or development initiatives (Context suggests a tool for sewing together design artifacts or similar).
 
-*   **[The Visual Display of Quantitative Information](https://www.amazon.com.au/Visual-Display-Quantitative-Information/dp/1930824130)**
+*   **[The Visual Display of Quantitative Information](https://en.wikipedia.org/wiki/The_Visual_Display_of_Quantitative_Information)**
     *   *Edward Tufte's* classic book on data visualization. It champions clarity, precision, and efficiency in presenting data, coining terms like "chartjunk" and advocating for high data-ink ratios.
 
 ---
