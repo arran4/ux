@@ -15,6 +15,9 @@ A collection of software, web, and desktop environment user interface design lin
 
 Essays, articles, and videos discussing interface design trends, complexity vs. simplicity, and the evolution of digital aesthetics.
 
+*   **[Backseat Software](https://blog.mikeswanson.com/backseat-software/)**
+    *   *Mike Swanson* discusses the evolution of software from being a tool you operate to a channel that operates on you. He critiques how modern software constantly interrupts users with notifications, tutorials, and surveys to optimize for engagement metrics rather than user experience.
+
 *   **[Why I Love Ugly, Messy Interfaces (And You Probably Do Too)](https://jonas.do/writing/2016-04-06-why-i-love-ugly-messy-interfaces-and-you-probably-do-too/)**
     *   *Jonas Downey* argues that successful products like Craigslist, Photoshop, and Facebook often have complex, cluttered, or "ugly" interfaces because they solve big, hairy problems. Minimalism isn't always the answer when utility is paramount.
 
