@@ -84,6 +84,9 @@ Deep dives into specific operating systems, applications, and historical moments
 
 Collections of design patterns, museums, and foundational texts.
 
+*   **[UI Style Guides (Aresluna)](https://aresluna.org/ui-style-guides/)**
+    *   *Marcin Wichary* curates an archive of human interface guidelines from the early 1980s onwards, including scanned documents and preserved websites covering desktop, mobile, and other platforms.
+
 *   **[Web Design Museum](https://www.webdesignmuseum.org/)**
     *   An online archive exhibiting over 2,000 websites from the years 1991 to 2006. It allows you to explore the visual history of the web, forgotten trends, and the evolution of web aesthetics.
 
